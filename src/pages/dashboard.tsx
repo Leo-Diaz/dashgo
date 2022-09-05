@@ -88,7 +88,7 @@ export default function Dashboard() {
             <Text fontSize="lg" mb="4">
               Subscriptions in this week
             </Text>
-            <Chart options={options} series={series} type="area" height={160} width={500} />
+            <Chart options={options} series={series} type="area" height={160} maxWidth={500} />
           </Box>
 
           <Box
@@ -99,7 +99,7 @@ export default function Dashboard() {
             <Text fontSize="lg" mb="4">
               Opening tax
             </Text>
-            <Chart options={options} series={series} type="area" height={160} width={500} />
+            <Chart options={options} series={series} type="area" height={160} maxWidth={500} />
           </Box>
 
         </SimpleGrid>
